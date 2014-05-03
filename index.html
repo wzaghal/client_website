@@ -17,14 +17,32 @@
 
 				<div class="nav clearfix">
 					<img src="3-Image_assets/logo-hackeryou.png" alt="" class="logo">
-					<ul>
+					<ul class="main-nav">
 						<li class="nav1">about</li>
 						<li class="nav2">courses</li>
 						<li class="nav3">blog</li>
 						<li class="nav4">contact</li>
-						<!--<li class="nav5">login</li>-->
+						
 					</ul>
+					<ul class="float-nav">
+						<li class="nav5"><p>login</p>
+							<form action="">
+								<input type="text" placeholder="email address">
+								<input type="password" placeholder="password">
+								<button>Log in</button>
+								<p><a href="">forgot password?</a></p>
+							</form>
+						</li>
+
+						<li class="nav6">apply</li>
+						
+
+					</ul>
+
+
 				</div>
+
+
 
 					<!-- logo. no reference on alt tag -->	
 				<h2>
@@ -43,23 +61,23 @@
 								From the team that introduced Ladies Learning Code in 2011, ac sodales libero posuere id. 
 								Ut auctor nibh ac ur rutrum dictum. Nunc tristique, ligula eget iaculis varius ipsum dolor sit.
 							</p>
-							<p class="external-link">
-								Meet the Team and Our Advisors
+							<p class>
+								<a href="">Meet the Team and Our Advisors</a>	
 							</p>
 						</li>
 						<li>
 							<h3>Recent News</h3>
 							<p class="news">
 								<span class="date-header">April 29, 2012</span>
-								<span class="news-link">Lorem ipsum dolor amet blog post title is also a link</span>
+								<span class="news-link"><a href="">Lorem ipsum dolor amet blog post title is also a link</a></span>
 							</p>
 							<p class="about">
 								Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
 								Nulla varius vehicula sem, ac sodales libero posuerre id. Ut auctor nibh ac ura rutrum Nunc tristique...
 							</p>
 
-							<p class="external-link">
-								Read More
+							<p>
+								<a href="">Read More</a>
 							</p>
 
 						</li>
@@ -71,6 +89,7 @@
 								<input type="text" placeholder="Email Address">
 							</form>
 							<button>Sign up</button>
+							<img src="3-Image_assets/icon-mailing.png" height="15" width="17" alt="">
 
 						</li>
 					</ul>
@@ -78,13 +97,19 @@
 				</div>
  
 			</div>
-			<div class="footer">
-			 	<ul>
-					<li class="media-icons"></li>
-					<li class="media-icons"></li>
-					<li class="media-icons"></li>
-					<li class="media-icons"></li>
-					<p class="legal">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam, explicabo, dicta fugit sapiente ratione odio cupiditate blanditiis eos beatae odit at eaque dolore iste rerum temporibus dolor numquam vel autem.</p>
+			<div class="footer clearfix">
+				<ul class="media-icons">
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+				<ul class="legal">
+					<li>@2012 HackerYou Inc.</li>
+					<li>Classes hosted at 215 spadina ave, toronto</li>
+					<li> terms & conditions <span class="pink">/</span> pricacy policy <span class="pink">/</span>  student loan</li>
+					<li> designed by function <span class="pink">/</span>  developed by Wes Bos</li>
+					
 				</ul>
 			</div>
 
@@ -100,7 +125,7 @@
 
 			<div 
 			class="caption">
-				<h2>Intro to <span class="topic">HTML & CSS</span></h2>
+				<h2>Intro to <span class="topic">HTML & CSS <span class="asterix">&#42;</span></span></h2>
 				<p class="clearfix">
 					<span class="begins">Begins</span> 
 					<span class="month">Sept</span> 
@@ -126,14 +151,14 @@
 						</ul>
 					</div>
 			</div>
-			<p class="">Never written a line of code before? Dude you've come to the right place</p>
+			<p class="caption-subheading"><span class="asterix">&#42;</span>Never written a line of code before?<span class="line2">Dude you've come to the right place</span></p>
 
 
-			<div class="contactus">
+			<div class="contactus clearfix">
 				<h2>Questions?</h2>
-				<img src="" alt="">
+				<img src="3-Image_assets/icon-sidebar-qs.png" alt="">
 				<ul class="contact">
-					<li>info@hackeryou.com</li>
+					<li class=>info@hackeryou.com</li>
 					<li>@thishackeryou</li>
 				</ul>
 			</div>
