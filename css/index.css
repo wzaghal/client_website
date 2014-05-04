@@ -23,7 +23,7 @@
 body{
     padding:0;
     margin: 0;
-    background: url(3-Image_assets/bg-forplacement.jpg) no-repeat;
+    background: url(../3-Image_assets/bg-forplacement.jpg) no-repeat;
 
     background-size: 100%;
 
@@ -241,7 +241,7 @@ input:focus{
     or lazy bad hack?
     made it easier to
     add arrow.jpg. */
-    list-style-image: url(3-Image_assets/arrow-grey.png);
+    list-style-image: url(../3-Image_assets/arrow-grey.png);
 }
 
 .news-link{
@@ -421,7 +421,7 @@ input:focus{
 }
 
 .media-icons li{
-    background: url('3-Image_assets/icon-footer-85.png') no-repeat 0 0;
+    background: url('../3-Image_assets/icon-footer-85.png') no-repeat 0 0;
     height: 43px;
     width: 55px;
     display: inline-block;
