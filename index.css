@@ -208,8 +208,10 @@ input:focus{
 }
 .nav5:hover form{
     display: block;
-   
+}
 
+.nav6{
+    z-index: 10;
 }
 
 
@@ -271,6 +273,11 @@ input:focus{
 
 .sidebar .course-photo{
     margin: 0 -20px;   
+}
+
+.sidebar .flexslider{
+    border: none;
+    border-radius: 0px;
 }
 
 
