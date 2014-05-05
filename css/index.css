@@ -488,12 +488,20 @@ input:focus{
         width: 50%;
     }
 
+    .content li a {
+        list-style: none;
+    }
+
     .media-icons{
         width: 50%;
     }
 
     .footer{
         padding-left: 50px;
+    }
+
+    .mail img{
+        display: none;
     }
 
 }
@@ -627,6 +635,26 @@ input:focus{
 
     .contactus img{
         display: none;
+    }
+
+    .footer{
+        display: none;
+    }
+
+    .mobile-footer{
+        display: block;
+        text-align: center;
+    }
+
+    .mobile-footer .media-icons{
+        padding-top: 10px;
+        float: none;
+        width: 100%;
+    }
+
+    .legal{
+        display: none;
+        float: none;
     }
 
 
